@@ -3,13 +3,6 @@ import {DialogTitle, DialogForm, Label,DialogActions,Button} from './styled/Crea
 import {useContext} from 'react';
 import AppContext  from '../hooks/Context'
 
-
-
-// type CreateItemModalProps = {
-//   open: boolean;
-//   setOpen: (open:boolean) => void;
-// }
-
 export default function FormDialog() {
   const {open, setOpen} = useContext(AppContext)
   const handleClose = () => {

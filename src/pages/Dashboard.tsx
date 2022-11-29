@@ -7,7 +7,6 @@ import CreateItemModal from '../components/CreateItemModal';
 import {useContext} from 'react';
 import AppContext from '../hooks/Context';
 export default function Dashboard() {
-    // const [open, setOpen] = useState(false);
     const { open, setOpen } = useContext(AppContext);
   return (
     
